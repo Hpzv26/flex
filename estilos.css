@@ -12,13 +12,26 @@ border: 1px solid #000;
     position: relative;
 }
 .barra{
-    background-color: antiquewhite;
+    background-color: #aca7f3;
     height: 30px;
     padding: 0 10px;
 }
 .close{
 background-color: red;
-height: 40px;
-width: 40px;
-right: 10;
+padding: 0 10px;
+cursor: pointer;
+position: absolute;
+right: 0;
+top: 0;
+color: white;
+
+}
+.window-body{
+    padding: 10px;
+}
+.window{
+    display: none;
+}
+.ventana-open{
+    display: block;
 }
