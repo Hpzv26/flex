@@ -1,11 +1,24 @@
-.ventana{
+.ventana-open{
 position: absolute;
 width: 500px;
-height: 600px;
-left: 0%;
-right: 0%;
+height: 200px;
+left: 0;
+right: 0;
 margin: auto;
-z-index: 11;
-background-color: aliceblue;
+border: 1px solid #000;
 
+}
+.ventana-in{
+    position: relative;
+}
+.barra{
+    background-color: antiquewhite;
+    height: 30px;
+    padding: 0 10px;
+}
+.close{
+background-color: red;
+height: 40px;
+width: 40px;
+right: 10;
 }
