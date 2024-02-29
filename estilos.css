@@ -1,0 +1,11 @@
+.ventana{
+position: absolute;
+width: 500px;
+height: 600px;
+left: 0%;
+right: 0%;
+margin: auto;
+z-index: 11;
+background-color: aliceblue;
+
+}
