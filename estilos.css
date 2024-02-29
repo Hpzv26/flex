@@ -6,6 +6,7 @@ left: 0;
 right: 0;
 margin: auto;
 border: 1px solid #000;
+text-align: center;
 
 }
 .ventana-in{
@@ -26,10 +27,9 @@ top: 0;
 color: white;
 
 }
-.window-body{
-    padding: 10px;
-}
-.window{
+.ventana-open .window-body p{color: red; padding: 10px;}
+   
+.ventana-open{
     display: none;
 }
 .ventana-open{
