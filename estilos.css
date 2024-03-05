@@ -1,34 +1,40 @@
 .window{
-position: absolute;
-width: 500px;
-height: 200px;
-left: 0;
-right: 0;
-margin: auto;
-border: 1px solid #000;
-text-align: center;
-
-}
-.ventana-in{
-    position: relative;
-}
-.barra{
-    background-color: #aca7f3;
-    height: 30px;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid #000;
+    text-align: center;
+    display: none;
+    }
+    .window.open{
+        display: block;
+    }
+    .window.close{
+        display: none;
+    }
+    .ventana-in{
+        position: relative;
+    }
+    .barra{
+        background-color: #aca7f3;
+        height: 30px;
+        padding: 0 10px;
+    }
+    .close{
+    background-color: red;
     padding: 0 10px;
-}
-.close{
-background-color: red;
-padding: 0 10px;
-cursor: pointer;
-position: absolute;
-right: 0;
-top: 0;
-color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    
+    }
+    .window .window-body p{color: red; padding: 10px;}
 
-}
-.window .window-body p{color: red; padding: 10px;}
-   
 .window{
     display: none;
 }
