@@ -28,3 +28,7 @@ console.log("el numero es mayo que 5");
 for(let i=0;i<5;i++){
 console.log(i);
 }
+
+//arrays
+let frutas=["manzana","banana","cereza"];
+console.log(frutas[0]); //imprime "manzana"
